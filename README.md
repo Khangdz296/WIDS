@@ -1,8 +1,19 @@
-# Wireless Network Intrusion Detection System (WIDS) with Kismet
+# 🛡️ Wireless Intrusion Detection System (WIDS)
+
+> **Deploying a passive monitoring system to detect anomalies and attacks (DoS, Evil Twin, Exploits) in IEEE 802.11 networks using Kismet.**
+
+![Project Status](https://img.shields.io/badge/Status-Completed-success)
+![OS](https://img.shields.io/badge/OS-Kali_Linux-557C94?style=flat&logo=kalilinux&logoColor=white)
+![Tool](https://img.shields.io/badge/Core-Kismet-blueviolet)
+![Attack Suite](https://img.shields.io/badge/Red_Team-Aircrack--ng-red)
 
 ## 📖 Introduction
 
 This project focuses on researching and deploying a **Wireless Intrusion Detection System (WIDS)** using **Kismet** on the Kali Linux platform. The system is designed to monitor IEEE 802.11 traffic, detect anomalies, and alert on specific wireless attacks in real-time.
+
+##  ⚠️ Disclaimer
+Educational Purposes Only: This project is created for academic research and defensive security testing. The author is not responsible for any misuse of the tools or information provided. Ensure you have permission to monitor and test the networks you are working on.
+
 
 ## 🚀 Key Features
 
@@ -22,7 +33,7 @@ Based on the passive monitoring model, the system successfully detects the follo
 
 - **OS:** Kali Linux
 - **Core Engine:** Kismet (Wireless Sniffer & WIDS)
-- **Hardware:** USB Wi-Fi Adapter (Monitor Mode supported)
+- **Hardware:** USB Wi-Fi Adapter with Monitor Mode & Packet Injection support (e.g., Atheros AR9271, Realtek RTL8812AU).
 - **Attack Simulation:** Aircrack-ng Suite (used for validating the WIDS rules)
 
 ## ⚙️ Configuration (Detection Rules)
@@ -68,3 +79,13 @@ _Deep packet inspection reveals Nonce Reuse, a signature of the attacker's tool.
    sudo kismet -c wlan0
    ```
 4. Access the Web UI at http://localhost:2501.
+
+## Authors:
+
+#### Duong Dinh Ngoc Khang
+
+#### Do Doan Duy Hoang
+
+#### Cao Dang Huy
+
+HCMC University of Technology and Engineering
